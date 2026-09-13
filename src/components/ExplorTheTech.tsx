@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import YourStackCards from "./YourStackCards";
+import toast from "react-hot-toast";
 const ExplorTheTech = () => {
   interface Technology {
     id: string;
@@ -36,16 +37,26 @@ const ExplorTheTech = () => {
     }
 
     setSelectedStack([...selectedStack, technology]);
+    toast.success(`${technology.name} added successfully`);
   };
 
   const handleRemoveFromStack = (id: string) => {
-    const updatedStack = selectedStack.filter((item) => item.id !== id);
+  const technology = selectedStack.find(
+    (item) => item.id === id
+  );
 
-    setSelectedStack(updatedStack);
-  };
+  setSelectedStack(
+    selectedStack.filter((item) => item.id !== id)
+  );
+
+  if (technology) {
+    toast.success(`${technology.name} removed successfully`);
+  }
+};
 
   const handleRemoveAll = () => {
     setSelectedStack([]);
+    toast.success("All technologies removed successfully");
   };
 
   return (
