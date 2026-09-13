@@ -1,6 +1,9 @@
 import logo from "../assets/logo-text.png";
+import Devider from "./Devider";
 const Navbar = () => {
   return (
+    <>
+    <div>
     <div className="max-w-280 m-auto flex justify-between items-center my-3">
       <div>
         <img src={logo} alt="nav-logo" />
@@ -21,6 +24,9 @@ const Navbar = () => {
         </button>
       </div>
     </div>
+     <Devider/>
+    </div>
+    </>
   );
 };
 
