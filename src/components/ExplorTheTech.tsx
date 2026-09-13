@@ -64,7 +64,7 @@ const ExplorTheTech = () => {
           <div className="w-10 h-10 border-4 border-gray-300 border-t-purple-500 rounded-full animate-spin"></div>
         </div>
       ) : (
-        <div className="mainContainer max-w-280 m-auto flex flex-col gap-10">
+        <div className="mainContainer max-w-280 m-auto flex flex-col gap-10 mb-20">
           <div className="heading-sebheading flex flex-col gap-2">
             <h1 className="text-5xl font-bold">
               Explore the{" "}

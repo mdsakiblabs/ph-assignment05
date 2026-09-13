@@ -3,8 +3,8 @@ import Devider from "./Devider";
 const Navbar = () => {
   return (
     <>
-    <div>
-    <div className="max-w-280 m-auto flex justify-between items-center my-3">
+    <div className="sticky top-0 w-full bg-white">
+    <div className="max-w-280 m-auto flex justify-between items-center py-3">
       <div>
         <img src={logo} alt="nav-logo" />
       </div>

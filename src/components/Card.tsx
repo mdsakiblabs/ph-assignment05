@@ -27,7 +27,8 @@ const Card = (props: CardProps) => {
       <div className="flex justify-between mb-10 text-[13px] font-medium">
         <h3 className="bg-[#475569] rounded text-white py-0.5 px-0.75">{props.category}</h3>
         <h2>{props.difficulty}</h2>
-        <h2>{props.rating}</h2>
+        <h2 className="flex items-center gap-0.5">
+            <span className="text-yellow-400 text-[15px]">★</span>{props.rating}</h2>
         </div>
 
       <button 
