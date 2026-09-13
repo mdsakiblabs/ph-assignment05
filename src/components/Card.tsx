@@ -16,7 +16,7 @@ const Card = (props: CardProps) => {
     <div className="container border border-[#f1f1f1] rounded-2xl px-4 py-3">
       <div className="flex justify-between">
         <img src={props.icon} alt="" className="w-8"/>
-        <h2>{props.badge}</h2>
+        <h2 className="bg-[#595959]  text-white font-light  flex justify-center items-center px-2 rounded-full py-0 text-[14px]">{props.badge}</h2>
       </div>
 
       <div className="flex flex-col gap-4 mb-5 mt-4">
