@@ -6,8 +6,8 @@ const Navbar = () => {
         <img src={logo} alt="nav-logo" />
       </div>
       <div>
-        <ul className="flex gap-10 text-[17px] cursor-pointer">
-          <li className="text-[#DB2777]">Home</li>
+        <ul className="flex gap-10 text-[17px] ">
+          <li className="text-[#DB2777] cursor-pointer">Home</li>
           <li className="cursor-pointer">Technologies</li>
           <li className="cursor-pointer">Projects</li>
           <li className="cursor-pointer">About</li>
