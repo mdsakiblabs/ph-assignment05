@@ -1,32 +1,13 @@
-# React + TypeScript + Vite
+1. Name of this project:
+==>Dev Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+2. Technology i used in this project:
+==>i used typeScript,react and tailwind Css
 
-Currently, two official plugins are available:
+3. description:
+This project is all about how to be a developer in 2026. To be a developer you need to know many thig such as js,ts,react,wailwind,docker etc technology. in this project i tried to show you the technologies you need to learn.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+4. 3 features:
+i) you can chose your stack
+ii) you can learn about some technologies
+iii) you can explore 
